@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloOpenshift {
     @GetMapping("/hello")
     public String hello(){
-        return  "Hello Openshift Version 1";
+        return  "Hello Openshift Version 2";
     }
 
 }
